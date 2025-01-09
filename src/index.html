@@ -6,33 +6,160 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss" />
     <!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
+    <title>Sobre nosaltres</title>
   </head>
   <body>
-    <div class="uoc-container">
-      <h1 class="text-3xl font-bold underline">Hello Tailwind!</h1>
-      <picture>
-        <source
-          srcset="./assets/images/logo.png?as=webp&width=350"
-          type="image/webp"
-        />
-        <img
-          src="./assets/images/logo.png?width=350"
-          alt="Universitat Oberta de Catalunya"
-          class="uoc-logo"
-        />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
+    <div
+      class="relative min-h-80 bg-[url('../images/proteccio-dades-web.jpg')] bg-no-repeat bg-center bg-cover"
+    >
+      <div
+        class="absolute inset-0 translate-x-1/4 translate-y-1/4 text-pac2-font-title-color font-pac2-font-title text-6xl leading-snug font-black"
+      >
+        CIBERSEGURETAT:<br />QUI SOM?
+      </div>
     </div>
+
+    <main class="w-screen">
+      <div
+        class="overflow-auto font-pac2-font p-8 m-0 bg-pac2-color-background"
+      >
+        <h2 class="text-gran">
+          Nosaltres sabem que la cibertseguretat és important
+        </h2>
+        <section
+          class="flex flex-wrap -mx-2 text-pac2-font-title-color bg-pac2-color-ciber pt-5 pb-5 mt-2 rounded-xl border-b-2"
+        >
+          <div class="md:w-3/12 px-2">
+            <h2 class="font-bold">Què és la ANC-AD?</h2>
+          </div>
+          <div class="md:w-9/12 px-2">
+            <p>
+              L’ANC-AD és l’encarregada de planificar, coordinar, gestionar i
+              controlar la ciberseguretat de xarxes i sistemes d’informació, com
+              a pol tecnològic de referència i confiança, líder en l’estratègia
+              de ciberseguretat del país en un sentit nacional i global.
+            </p>
+          </div>
+        </section>
+
+        <section
+          class="row flex-column flex-md-row text-pac2-font-color border-b-2"
+        >
+          <div class="col-md-12">
+            <ol class="mb-0 pt-2 list-none content-[counter-reset: my-counter]">
+              <li
+                class="text-pac2-font-color-dark text-lg text-left leading-8 p-5 before:content-[counter(my-counter)]"
+              >
+                <p class="font-bold">Garantia</p>
+                <p>
+                  Garantir la ciberseguretat al territori del Principat
+                  d’Andorra.
+                </p>
+              </li>
+              <li
+                class="text-pac2-font-color-dark text-lg font-bold text-left leading-8 p-5 before:content-[counter(my-counter)]"
+              >
+                <p class="font-bold">Protecció</p>
+                <p>
+                  Protegir la seguretat pública en el ciberespai, anticipant i
+                  combatent els delictes en matèria de seguretat de les xarxes i
+                  sistemes d’informació.
+                </p>
+              </li>
+              <li
+                class="text-pac2-font-color-dark text-lg font-bold text-left leading-8 p-5 before:content-[counter(my-counter)]"
+              >
+                <p class="font-bold">Referència</p>
+                <p>
+                  Ser el punt de referència generador de confiança digital per a
+                  les entitats de les administracions públiques i entitats
+                  privades, especialment per als sectors estratègics
+                  representats per les entitats proveïdores de serveis
+                  essencials i de serveis importants.
+                </p>
+              </li>
+            </ol>
+          </div>
+        </section>
+
+        <section class="row flex-column flex-md-row text-center sobre__section">
+          <div class="col-md-12">
+            <picture>
+              <source
+                srcset="./assets/images/anc-bon-dia.jpg?as=webp"
+                type="image/webp"
+              />
+              <img src="./assets/images/anc-bon-dia.jpg" alt="ANC Bon Dia" />
+            </picture>
+          </div>
+        </section>
+
+        <section class="row flex-column flex-md-row sobre__section">
+          <div class="col-md-12">
+            <h2>Què és la Ciberseguretat i la seva importància</h2>
+          </div>
+
+          <div class="col-md-12">
+            <p>
+              La Ciberseguretat és la protecció de dades i sistemes informàtics
+              davant dels atacs cibernètics. La finalitat principal és assegurar
+              que tota la informació, tant de clients com d’empreses, es
+              mantingui de manera privada.
+            </p>
+          </div>
+        </section>
+
+        <section class="row flex-column flex-md-row sobre__section">
+          <div class="col-md-12">
+            <p>
+              A causa de la quantitat d’informació que circula constantment per
+              la xarxa, la ciberseguretat ha esdevingut un dels elements més
+              necessaris dins del món de la informàtica i les comunicacions.
+              Actualment, tant les empreses, com la societat en general, generem
+              i compartim infinitat de dades a través d’internet, cosa que, en
+              aquests moments, es veu cada cop més perjudicial per a tothom. Per
+              quin motiu? La resposta és clara, i és que ens trobem en un
+              ciberespai on els pirates informàtics apareixen per utilitzar
+              totes les seves habilitats i coneixements, amb l’objectiu
+              d’accedir il·legalment a sistemes o xarxes alienes i aconseguir
+              tota la informació. És per això que cada vegada més, les empreses
+              requereixen professionals qualificats que tinguin coneixements
+              sobre Ciberseguretat, per evitar que passin aquests fets i que, en
+              cas de produir-se, puguin solucionar-ho de manera immediata.
+            </p>
+          </div>
+        </section>
+
+        <section class="row flex-column flex-md-row sobre__section">
+          <div class="col-xl-8">
+            <figure>
+              <blockquote class="p-8 border-l-2">
+                <p>
+                  "Les contrasenyes són com la roba interior: no deixeu que la
+                  gent la vegi, canvieu-la molt sovint i no l'has de compartir
+                  amb desconeguts".
+                </p>
+              </blockquote>
+              <figcaption class="font-bold italic">
+                Chris Pirillo a <cite title="AZ Quotes">AZ Quotes</cite>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4">
+            <picture>
+              <source
+                srcset="./assets/images/javascript.jpg?as=webp"
+                type="image/webp"
+                class="figure-img img-fluid rounded"
+              />
+              <img src="./assets/images/javascript.jpg" alt="Javascript" />
+            </picture>
+          </div>
+        </section>
+      </div>
+    </main>
 
     <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script>
-    <!-- do not remove this line! -->
   </body>
 </html>
