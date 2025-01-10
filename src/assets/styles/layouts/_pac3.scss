@@ -50,3 +50,88 @@ li {
   // Misc
   counter-increment: my-counter;
 }
+
+/************************************************/
+/* PÀGINA DEL HEADER                            */
+/************************************************/
+
+.header {
+  // Positioning
+  left: 0;
+  top: 0;
+
+  // Box model
+  width: 100%;
+  padding: 5px;
+
+  // Typography
+  font-family: "Lato";
+  font-size: 0.8rem;
+  color: rgb(255, 255, 255);
+
+  // Visual
+  background: rgb(22, 74, 124);
+}
+
+.header-navegador {
+  // Box model
+  float: right;
+  padding-left: 30px;
+
+  // Misc
+  ul {
+    // Box model
+    margin: 0;
+    padding: 0;
+    padding-right: 40px;
+
+    // Visual
+    list-style: none;
+  }
+
+  li {
+    // Box model
+    display: inline-block;
+
+    // Typography
+    line-height: 80px;
+  }
+
+  a {
+    // Box model
+    display: block;
+    padding: 0 10px;
+
+    // Typography
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+}
+
+/* Logo */
+.logo-header {
+  // Box model
+  float: left;
+
+  // Typography
+  text-decoration: none;
+}
+
+.logo-header img {
+  // Box model
+  width: 190px;
+}
+
+@media (max-width: 992px) {
+  .header {
+    // Typography
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-navegador {
+    // Typography
+    font-size: 0.6rem;
+  }
+}
