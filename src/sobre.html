@@ -10,15 +10,12 @@
   </head>
   <body>
     <include src="./views/header.html"></include><br />
-    <div
-      class="relative min-h-80 bg-[url('../images/proteccio-dades-web.jpg')] bg-no-repeat bg-center bg-cover"
-    >
-      <div
-        class="relative flex items-center justify-center mt-20 text-pac2-font-title-color font-pac2-font-title text-3xl leading-snug font-black sm:text-6xl"
-      >
-        CIBERSEGURETAT:<br />QUI SOM?
-      </div>
-    </div>
+
+    <include
+      src="./views/hero.html"
+      locals='{
+      "text": "CIBERSEGURETAT:", "subtext": "QUI SOM?"}'
+    ></include>
 
     <main class="w-10/12 p-4 mx-auto text-center borde">
       <div
