@@ -34,3 +34,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-mesinfo {
+    @apply text-pac2-font-color bg-pac2-color-ciber rounded-lg text-sm px-5 py-2.5 me-2 mb-2 mt-5;
+  }
+  .container-destacat {
+    @apply flex flex-wrap -mx-2 text-pac2-font-title-color bg-pac2-color-ciber pt-5 pb-5 mt-5 mb-5 rounded-xl border-b-2 text-left;
+  }
+}
