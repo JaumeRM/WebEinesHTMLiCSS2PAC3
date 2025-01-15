@@ -74,7 +74,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 10px; /* Añade un margen de separación pequeño entre las cards */
+  gap: 10px; /*  Añade un margen de separación pequeño entre las cards */
 }
 
 .card {
